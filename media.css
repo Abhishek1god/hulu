@@ -1,0 +1,396 @@
+
+@media (max-width: 1250px){
+
+  .nav{
+    width: 95.8rem;
+
+    }
+
+ .lib-grid-container{
+    width: 900px;
+ }   
+
+ .footer-container{
+    width: 95.8rem;
+ }
+ .footer-span{
+    width: 161.16px;
+ }
+}
+
+
+@media (max-width: 1000px){
+  .nav{
+    width: 85rem;
+  }
+    .lib-about{
+        width:fit-content;
+    }
+    .lib-grid-container{
+      width: 100%;
+    }
+    .section-plan{
+      width: 900px;
+    }
+    .header-1st-row{
+      
+      width:366px;   
+    }
+    .row-secondary{
+      width: 525px;
+    }
+    .plan-body-container{
+      width: 900px;
+    }
+    .header-2nd-row,.header-3rd-row,
+    .plan,.plan-1stvalue,.plan-2ndvalue
+    {
+      width: 262px;
+      padding: 10px;
+    }
+    .plan{
+  
+    }
+    .plan-feature{
+      width: 348px;
+    }
+    .plan-value-container{
+      width: 525px;
+    } 
+    .livesports-container{
+      max-width: 850px;
+    }
+
+    .footer-container{
+      width: 70rem;
+    }
+    .footer-span{
+      width: 150px;
+    }
+    .footer-links span{
+      margin-left: 20px;
+    }
+    
+    /* plan table reformation */
+    .table-body{
+      width: 100%;
+    }
+    .section-plan{
+      width: 100vw;
+    }
+    .plan-table-header{
+      flex-direction: column;
+      gap: 0;
+    }
+    
+    .header-1st-row{
+      width: 100%;
+      height: 120px;
+     border-bottom: 1px solid rgba(200,200,200,0.4);
+    }
+    .row-secondary{
+      width: 100%;
+    }
+    .header-2nd-row{
+      border-right: 2px solid #16202e;
+      padding: 0;
+    }
+    .header-3rd-row{
+     /* border-left:  1px solid rgba(200,200,200,0.4); */
+    padding: 0;
+    }
+    .header-2nd-row,.header-3rd-row{
+      width: 100%;
+      background-color: #0b0806;
+      justify-content: center;
+      height: 200px;
+      /* border: ; */
+    }
+    .plan-body-container{
+      flex-direction: column;
+      width: 100%;
+    }
+    .plan-feature{
+      width: 100%;
+      justify-content: center;
+    }
+    .plan-value-container{
+      width: 100%;
+    }
+    .plan-1stvalue{
+      border-right: 1px solid white;
+    }
+    .offer-1st,.offer-2nd{
+      width: 375px;
+    }
+    .plan{
+      padding: 4px;
+    }
+    .plan-1stvalue,.plan-2ndvalue{
+      width: 100%;
+      background-color: transparent;
+      justify-content: center;
+      margin: 7px 6px 17px;
+    }
+    .plan-feature span{
+      padding: 15px 0;
+    }
+    .plan-body-container img{
+      height: 12px;
+    }
+    .plan-foot{
+      text-align: center;
+    }
+    .footer-span{
+      width: 130px;
+    }
+
+}
+
+
+@media (max-width: 900px){
+  .nav{
+    max-width: 75rem;
+    padding: 0px 17px;
+  }
+  .lib-grid-item{
+    width:31.5rem;
+    height: 45rem;
+  }
+  .footer-row{
+    flex-direction: column;
+  }
+  .footer-span{
+    width: 172px;
+  }
+  .footer-row-2 .footer-span{
+    width: 216px;
+  }
+  .livesports-container{
+    padding: 60px 0px 190px 30px;
+  }
+  .livesports-heading{
+    font-size: 3.6rem;
+  }
+  .caraousel-btn span{
+    font-size: 11px;
+  }
+
+  .livesports-para{
+    font-size: 1.4rem;
+  }
+}
+
+@media (max-width: 750px){
+  .nav{
+    max-width: 65rem;
+    padding: 0px 10px;
+  }
+  .hulu-disney-espn--logo{
+    width: 55.3rem;
+    height: 11.54rem;
+  }
+  .plan-1stvalue,.plan-2ndvalue{
+    margin: 7px 0px 17px 6px;
+  }
+  .company-logos-container{
+    justify-content: center;
+    width: auto;
+  }
+  .livesports-container{
+    padding: 60px 82px 190px 82px;
+  }
+  .para-tertiary{
+    font-size: 2rem;
+    width: 63rem;
+    padding: 0 11px 4px;
+  }
+  .livesports-para{
+    font-size: 1.6rem;
+    width: auto;
+    max-width: inherit;
+  }
+    .carousel-navigation{
+    text-align: center;
+  }
+
+  /* ******trying that grow down navigation*** */
+  .footer{
+    /* display: flex; */
+    /* justify-content: center; */
+  }
+  .footer-container{
+    margin: 0;
+    width: 60rem;
+    margin: 0 auto;
+    padding: 0px 20px;
+  }
+  /* .footer-row{
+  } */
+  .offer-1st,.offer-2nd{
+    width: 268px;
+  }
+
+  
+  .footer-row h3{
+    padding:32px 0px;
+    font-weight: 600;
+  }
+  .row-xl{
+    flex-direction: column;
+    padding-bottom: 32px;
+    gap: 1.5rem;
+    border-bottom: 1px solid rgb(151 151 151 / 40%);
+  }
+  .footer-span a{
+    color: #586174;
+    padding-bottom: 8px;
+  }
+  .footer-dropdown{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+  }
+  .footer-dropdown img{
+    padding-right: 8px;
+    filter: invert(1);
+  }
+  .footer-row-1{
+    border-bottom: 1px solid rgb(151 151 151 / 40%);
+  }
+  
+  .footer-row-2{
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+.footer-row-2>.row-1, .footer-row-2>.row-2{
+
+  
+  border-bottom: 1px solid rgb(151 151 151 / 40%);
+}
+.footer-span-container{
+  display: none;
+  flex-direction: column;
+}
+.d-flex{
+  display: flex;
+  padding-bottom: 32px;
+  
+}
+.flip{
+  transform: rotate(180deg);
+}
+.footer-dropdown>span{
+  display: inline;
+}
+.footer-links{
+  left: -23px;
+}
+
+}
+
+@media (max-width: 650px){
+  .nav{
+    width: 50rem;
+    padding: 0px 15px;
+  }
+  .hulu-disney-espn--logo{
+    width: 42rem;
+  }
+  .para-tertiary{
+    width: 47rem;
+  }
+  .lib-grid-item{
+    width: 20rem;
+    height: 35rem;
+  }
+  .title-primary{
+    font-size: 4.2rem;
+  }
+  
+  .caraousel-btn{
+    margin-right: 25px;
+  }
+  .caraousel-btn span{
+    font-size: 10px;
+  }
+  .offer-1st,.offer-2nd{
+    width: 230px;
+  }
+  .footer-container{
+    width: 50rem;
+  }
+
+}
+
+@media (max-width: 500px){
+.nav{
+  margin: 0 auto;
+  max-width: 40rem;
+  width: initial;
+
+}
+.hulu-disney-espn--logo{
+  max-width: 35rem;
+
+}
+.title-primary{
+  font-size: 3.4rem;
+}
+.para-tertiary{
+  margin: 0 auto;
+
+  max-width: 35rem;
+}
+.lib-para{
+  margin: 0rem;
+}
+.livesports-container{
+  padding: 48px 10px 150px 10px;
+}
+.plan-header--primary{
+  font-size: 4rem;
+}
+.plan-description{
+  font-size: 1.6rem;
+}
+.base-text{
+  font-size: 1.2rem;
+}
+.offer-1st,.offer-2nd{
+  width: 150px;
+}
+.offer-1st span, .offer-2nd span{
+  font-size: 1.2rem;
+}
+.offer-2nd b, .offer-1st b{
+  font-size: 1.3rem;
+}
+.caraousel-btn{
+  margin-right: 11px;
+}
+.carousel-navigation{
+  margin-top: 50px;
+}
+.caraousel-btn span{
+  font-size: 11px;
+}
+.plan-feature span{
+  padding: 15px 25px;
+}
+.plan-btn{
+  font-size: 1.1rem;
+}
+.footer h3{
+  font-size: 12px;
+}
+.footer-links a{
+  font-size: 11px;
+}
+.footer-container{
+  width: 35rem;
+}
+
+  }

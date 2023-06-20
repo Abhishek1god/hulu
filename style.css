@@ -1,0 +1,858 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    font-family: "Graphik Web", sans-serif;
+}
+html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+body{
+    width: 100vw;
+    overflow-x: hidden;
+}
+.section-hero{
+    background: linear-gradient(to bottom, black -30%, transparent),
+    url(./img/hero-section/ckzoylttk003x1v6mcd4p0gk2-ckxgnvin29r771v5fyutjbf5c-bundle-6400x2640-desktop-1x.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+
+}
+
+.nav{
+
+    max-width: 126.8rem;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    height: 7.4rem;
+    align-items: center;
+    
+}
+.header{
+    width: 100%;
+
+}
+.login{
+    font-family: "Graphik Web", sans-serif;
+    text-transform: uppercase;
+
+    margin: 15px;
+}
+.login a{
+    color: #a8afbd;
+    text-decoration: none;
+    font-size: 1.4rem;
+    letter-spacing: 0.6px;
+    font-weight: 600;
+}
+.hulu-logo{
+    width: 6.3rem;
+    height: 3rem;
+}
+.bundle{
+    display: flex;
+    justify-content: center;
+    padding: 10rem 9.6rem 9rem 9.6rem;
+
+
+    align-items: center;
+}
+.bundle div{
+    text-align: center;
+
+}
+.hulu-disney-espn--logo{
+    width: 60.3rem;
+    height: 13.54rem;
+}
+
+.heading-primary{
+    font-weight: 600;
+    letter-spacing: .6px;
+    font-size: 1.2rem;
+    padding-bottom: 26px;
+    color: #00ED82;
+    text-align: center;
+    text-transform: uppercase;
+}
+.para-tertiary{
+    margin-top: 1.6rem;
+    font-family: 'Roboto Condensed', sans-serif;
+    padding-bottom: 4px;
+    font-size: 2.8rem;
+    width: 70rem;
+    
+    line-height: 1.24;
+    font-weight: 700;
+}
+.btn-bundle{
+    margin-top: 1.6rem;
+    background-color: #1CE783;
+    width: 100%;
+    border-radius: 4px;
+    font-size: 14px;
+    cursor: pointer;
+    font-weight: 600;
+    color: #040405;
+    border: none;
+    text-transform: uppercase;
+    letter-spacing: 0.6px;
+    height: 48px;
+    transition: all .3s ;
+    
+}
+.btn-bundle:hover{
+    background-color: #1CE78390;
+    color: #040405;
+}
+.included{
+    margin-top: 1.6rem;
+}
+.included,.included a{
+    line-height: 1.46;
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: rgba(255,255,255,0.6);
+}
+.sign-up-hulu{
+    font-size: 1.6rem;
+    padding-top: 10px;
+    font-weight: 400;
+    line-height: 1.46;
+   color: rgb(250 250 250);
+}
+
+.sign-up-hulu a{
+    border-bottom: 1px solid rgb(250 250 250);
+    text-decoration: none;
+}
+.sign-up-hulu a:hover,.sign-up-hulu a:focus{
+    border-bottom: 1px solid rgba(255,255,255,0.6);
+}
+
+/* ********************* */
+/* library section  */
+/* ********************** */
+
+.section-library{
+    background-color: #0b0c0f;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+.lib-about{
+    width: 100rem;
+    padding: 8.8rem 2rem 5rem 2rem;
+}
+.section-library .heading-primary{
+    padding-bottom: 0;
+}
+
+.title-primary{
+    text-align: center;
+    margin: 16px 0 10px;
+    font-size: 4.8rem;
+    font-weight: 600;
+    line-height: 1.25;
+    letter-spacing: -0.5px;
+}
+.lib-para{
+    padding-top: 1.6rem;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 1.36;
+    margin: 0rem 13rem;
+}
+.lib-grid-container{
+    width: 100%;
+    padding-bottom: 10rem;
+}
+.lib-grid{
+
+    width: 100%;
+    
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    /* height: 45rem; */
+    flex-wrap: wrap;
+  
+}
+.lib-grid-item{
+    text-align: left;
+    z-index: 2;
+    position: relative;
+    width: 29.5rem;
+    height: 45rem;
+}
+.lib-grid-item:nth-of-type(1){
+    background: url(./img/tv-shows/ckzix4ce0m28n1k7rwhwjufa7-ckllond4i0i9w1u7ghnu91j1b-bobsburgers-category-tile-294x450-1x-full.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.lib-grid-item:nth-of-type(2){
+    background: url(./img/tv-shows/ckzix6os0m2cl1k7rmtowojwd-cklms7f221g6z1u6ye8eurm1e-unitedstatesvsbillieholiday-category-tile-294x450-1x-1-full.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.lib-grid-item:nth-of-type(3){
+    background: url(./img/tv-shows/ckzix9rkis6t31v5mteb3tnon-ckzix7nm8s6q01v5mrhx8mjms-cktarx0vs0o9q1w7av35olnl8-nine-perfect-strangers-category-poster-tile-294x450-2x-full-full.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.lib-grid-item:nth-of-type(4){
+    background: url(./img/tv-shows/ckzixaonhhgrc1k6w2bn2vte1-cktaw41ct0trg1v5yjb2aysun-billions-category-poster-tile-v1-294x450-2x-full.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.lib-grid-item:nth-of-type(4)::after{
+    content: "Premium network add-ons available for an additional cost";
+    position: absolute;
+    top: 102%;
+    left: 0;
+    font-size: 1.04rem;
+    font-weight: 400;
+    line-height: 1.46;
+    color: rgba(255,255,255,0.6);
+
+}
+.tv-show-img{
+
+}
+.lib-gradient{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+    background: linear-gradient(156.82deg, rgba(0,0,0,0.6) 4.58%, rgba(0,0,0,0) 69.61%),linear-gradient(24.5deg, rgba(0,0,0,0.2) 4.71%, rgba(0,0,0,0) 71.49%);
+}
+.lib-grid-about{
+    /* z-index: 5; */
+    padding: 25px;
+    z-index: 3;
+    display: inline-block;
+}
+.lib-grid-about h2{
+    font-size: 1.2rem;
+    font-weight: 500;
+    line-height: 1.44;
+}
+.lib-grid-about p{
+    padding-top: 8px;
+    padding-bottom: 8px;
+    font-size: 2rem;
+    line-height: 28px;
+}
+
+    /* ******************
+    billboard section
+    ****************** */
+.section-billboard{
+    background-color: #0b0c0f;
+}
+.billboard{
+    max-width: 976px;
+    padding: 100px 0;
+    margin: 0 auto;
+}
+.billboard .heading-primary{
+    font-size: 1.4rem;
+    padding-bottom: 0;
+    
+}
+.billboard .title-primary{
+    margin: 16px 3% 0;
+}
+.billboard-para{
+    text-align: center;
+    margin: 1.8rem 12% 0;
+    font-size: 19.3px;
+    font-weight: 400;
+    line-height: 1.32;
+    padding: 8px 0;
+}
+.billboard-disclaimer{
+    margin: 1.8rem 12% 0;
+    text-align: center  ;
+    font-size: 1.03rem;
+    font-weight: 400;
+    color:rgba(255,255,255,0.6);
+    line-height: 1.46;
+}
+.billboard-disclaimer a{
+    color: rgba(255,255,255,0.6);
+}
+
+.billboard-channel-link{
+    background-color: transparent;
+    color: #fff;
+    opacity: 0.8;
+    font-size: 1.6rem;
+    font-weight: 600;
+    text-decoration: underline;
+    display: flex;
+    border: none;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    margin: 16px auto 0 auto;
+    text-transform: uppercase;
+    letter-spacing: .6px;
+}
+.drop-down-btn{
+    position: relative;
+    display:  block;
+    text-align: center;
+    width: 100%;
+    
+    
+}
+.drop-down-btn img{
+    height: 11px;
+}
+
+.drop-down-btn{
+    animation: example 1s ease-out;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    margin-top: 29px;
+}
+
+@keyframes example{
+    100%{
+        top: 15px;
+    }
+    0%{
+        top: 5px;
+    }
+}
+
+
+/* *************
+livesports section
+************* */
+
+
+.section-livesports{
+    background-image:  linear-gradient(90deg, rgba(0, 0, 0, 0.8) -57.5%, rgba(0, 0, 0, 0) 98.72%),
+    url(./img/live-section/cl5hfizp1qtoz1v3cagkvtbk2-ckzyp3x8ycmjp1k4e5pc5p9n9-ckuh9mwjj08j01v4q0ur1z6x1-ckqwp2zlfc1zx1u362echneor-sports-v3-1600x850-min-full.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.livesports-container{
+    max-width: 976px;
+    padding: 60px 0 190px 0;
+    margin: 0 auto;
+}
+
+.caraousel-btn{
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    margin-right: 37px;
+
+}
+.caraousel-btn span{
+    text-transform: uppercase;
+    font-size: 12px;
+    line-height: 1.125;
+    letter-spacing: 0.25px;
+    font-weight: 800;
+    color: rgba(255,255,255,0.4);
+}
+.carousel-navigation{
+    margin-top: 140px;
+}
+.active span{
+    color: #fff;
+}
+.slider{
+    width: 100%;
+    background-color: #fff;
+    height: 5px;
+    margin-top: 15px;
+}
+.livesports-heading{
+    font-size: 4.2rem;
+    font-weight: 600;
+    line-height: 1.25;
+    letter-spacing: -0.5px;
+    margin-top: 25px;
+}
+.livesports-para{
+    margin-top: 1.8rem;
+    max-width: 50rem;
+    font-size: 1.7rem;
+    font-weight: 400;
+    line-height: 1.36;
+}
+.company-logos-container{
+    display: flex;
+    font-size: 16px;
+    flex-wrap: wrap;
+    width: 350px;
+    margin-top: 20px;
+    height: 75px;
+}
+.logos-container-secondary{
+    margin: 0 20px 20px 0;
+    height: 55px;
+    width: 55px;
+}
+.logo-background{
+    background: url(./img/company-logos/network-logo-bg@2x.png) center center no-repeat;
+
+    max-width: 8.8rem;
+    max-height: 8.8rem;
+    overflow: hidden;
+    display: flex;
+    
+    height: 100%;
+    border-radius: 50%;
+    
+    width: 100%;
+    justify-content: center;
+
+    align-items: center;
+    
+}
+.logo-background img{
+    text-align: center;
+    
+    
+    width: 80%;
+}
+.livesports-container .included{
+    font-size: 1rem;
+}
+
+/* section plan  */
+
+.section-plan-container{
+    background-color: #0b0c0f;
+    
+}
+
+.section-plan{
+    overflow: hidden;
+    max-width: 976px;
+    margin: 0 auto;
+    text-align: center;
+    
+}
+.plan-header{
+    padding-top: 80px;
+    padding-bottom: 40px;
+}
+.plan-header--primary{
+    font-size: 4.8rem;
+    font-weight: 600;
+    line-height: 1.25;
+    letter-spacing: -0.5px;
+    margin: 0 0 16px;
+}
+.plan-description{
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 1.32;
+}
+b{
+
+}
+
+/* *****plan table******* */
+
+.plan-table-main{
+    flex-direction: column;
+    display: flex;
+}
+
+.header-1st-row{
+    display: flex;
+    width: 41.66667%;
+    width: 402.5px;
+    height: 215px;
+    padding: 15px 0 10px 0;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+
+}
+.plan-table-header{
+    display: flex;
+    gap: 1rem;
+    justify-content: space-evenly;
+    border-bottom: 1px solid rgba(200,200,200,0.4);
+    
+    
+
+
+}
+.header-2nd-row{
+    display: flex;
+    align-items: center;
+    justify-self: center;
+}
+.plan-line{
+    height: 1px;
+    background-color: rgba(200,200,200,0.4);
+    width: 100%;
+}
+.row-secondary{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 58.33333%;
+
+}
+
+.plan-btn{
+    background-color: #fff;
+    color: black    ;
+    height: 48px;
+    padding: 0 28px;
+    cursor: pointer;
+    border: none;
+    border-radius: 8px;
+    width: 100%;
+    letter-spacing: 1.01;
+    font-weight: 600;
+    transition: all .3s;
+}
+.plan-btn:hover{
+    color: #040405;
+    background-color: #ffffffCC;
+}
+.plan-card{
+    /* margin-top: ; */
+}
+.switch-container{
+    margin-bottom: 30px;
+}
+
+.base-text{
+    text-transform: uppercase;
+    font-size: 1.4rem;
+    line-height: 1.14;
+    display: flex;
+    gap: 5px;
+    font-weight: 600;
+}
+.row-container{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+
+}
+
+.base-plan img{
+    margin-top: 18px;
+    height: 11px;
+}
+
+.offer-1st{
+    font-size: 1.4rem;
+    font-weight: 600;
+    letter-spacing: 0.6px;
+    width: 268px;
+    text-transform: uppercase;
+
+    display: flex;
+    height: 153px;
+    justify-content: flex-end;
+    align-items: center;
+   
+    flex-direction: column;
+}
+.offer-1st::before{
+    content: "most popular";
+   display: inline-block;
+   padding: 10.5px 27px;
+    text-transform: uppercase;
+    width: 112px;
+    padding: 7px 15px 5px;
+    margin-bottom: 10px;
+    color: black;
+    font-size: 9px;
+    border-radius: 100px;
+    background-color: #1ce783;
+
+}
+.offer-2nd span,.offer-1st span{
+    color: #BEC0C2;
+    padding-top: 10px;
+    font-weight: 600;
+    letter-spacing: 0.6px;
+
+    font-size: 1.4rem;
+    margin-bottom: 5px;
+    font-size: 1.5rem;
+}
+.offer-2nd b, .offer-1st b{
+    font-size: 1.6rem;
+    text-transform: none;
+    margin-bottom: 1.3rem;
+}
+
+.header-3rd-row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #272c34;
+}
+
+.offer-2nd{
+    height: 153px;
+    width: 268px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+
+
+/* *********switch****** */
+label {
+	cursor: pointer;
+	text-indent: -9999px;
+	width: 56px;
+	height: 30px;
+	background: grey;
+	display: block;
+	border-radius: 100px;
+	position: relative;
+}
+#switch{
+    display: none;
+}
+
+label:after {
+	content: '';
+	position: absolute;
+	top: -1px;
+	left: 0px;
+	width: 30px;
+	height: 32px;
+	background: #fff;
+	border-radius: 90px;
+	transition: 0.3s;
+}
+
+input:checked + label {
+	background: #bada55;
+}
+
+input:checked + label:after {
+	left: calc(100% - 5px);
+	transform: translateX(-100%);
+}
+
+label:active:after {
+	width: 130px;
+}
+
+/* *****plan body ****** */
+.table-body{
+    margin-bottom: 40px;
+    width: 977px;
+}
+.plan-body-container{
+    display: flex;
+    border-bottom: 1px solid rgba(200,200,200,0.4);
+    justify-content: space-evenly;
+
+}
+.plan-feature{
+    width: 41.66667%;
+    display: flex;
+    gap: 2rem;
+    width: 402.5px;
+}
+.plan-value-container{
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 1fr;
+    width:  58.33333%;
+    gap: 1rem;
+    font-weight: 500;
+    font-size: 1.53rem;
+    font-family: "Graphik Web",sans-serif;
+}
+.plan-feature span{
+    font-family: "Graphik Web",sans-serif;
+    padding: 20px 0;
+    font-size: 1.5rem;
+    line-height: 1.36;
+    font-weight: 500;
+    text-align: left;
+}
+.plan-2ndvalue{
+    height: 100%;
+    width: 282px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0;
+    background-color: #272c34;
+}
+.info-img::after{
+    content: "";
+    background-image: url(./img/logos&utility/Info_Icon_White.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 7px;
+    cursor: pointer;
+
+    margin-left: 3px;
+}
+
+.plan-foot{
+    text-align: left;
+    padding: 0px 8px;
+    padding-bottom: 60px;
+    border-bottom: 1px solid rgba(200,200,200,0.4);
+    margin: 1.2rem 0 0 0;
+}
+.plan-foot span{
+    color: rgba(255,255,255,0.6);
+    margin-bottom: 6rem;
+}
+
+.plan-adds-on{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.36;
+    height: 70px;
+    border-bottom: 1px solid rgba(200,200,200,0.4);
+}
+.plan-adds-on img{
+    cursor: pointer;
+    padding-left: 8px;
+    
+}
+.footer{
+
+    background-color: #e8eaed;
+}
+.footer-row{
+    display: flex;
+
+}
+.hulu-footer{
+    padding: 32px 0px;
+
+}
+
+.footer-container{
+    max-width: 1050px;
+    margin: 0 auto;
+}
+.row-xl{
+    display: flex;
+    flex-direction: row;
+}
+.row{
+    display: flex;
+    flex-direction: column;
+}
+.footer-row-2{
+    display: flex;
+    
+    color: black;
+}
+
+.footer h3{
+    color: black;
+    font-size: 13px;
+    font-weight: 510;
+    padding: 8px 0;
+    text-transform: uppercase;
+    letter-spacing: .6px;
+}
+.footer-span-container{
+    /* display: flex;
+    flex-direction: column; */
+}
+.flex{
+    display: flex;
+    flex-direction: column;
+}
+.footer-span{
+    width: 174.16px;
+    padding-right: 32px;
+    font-size: 14px;
+    padding-bottom: 8px;
+}
+.footer-span a{
+    color: black;
+    text-decoration: none;
+    font-size: 14px;
+    color: #586174;
+}
+
+.footer-bottom {
+    border-top: 2px solid #d9dce2;
+    padding: 32px 0 0;
+}
+.footer-logos{
+    margin: 0 42px 32px 0;
+}
+.footer-logos a{
+    padding-right: 32px;
+}
+.footer-links{
+    position: relative;
+    left: -32px;
+    display: flex;
+    flex-wrap: wrap;
+    /* max-width: 1019px; */
+    padding-bottom: 32px;
+}
+.footer-links span{
+    display: inline;
+    margin-left: 32px;
+    
+
+}
+.footer-dropdown>span{
+    display: none;
+}
+.footer-links span:nth-of-type(1){
+    /* margin-left: 0px !important; */
+}
+
+.footer-links span:nth-last-of-type(1){
+    /* margin-left: 0px !important; */
+}
+.footer-links a{
+    font-size: 12.5px;
+    font-weight: 400;
+    line-height: 32px;
+    text-decoration: none;
+    color: #586174;
+}
+
+
+
+
+
+
+
+
+
